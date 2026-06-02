@@ -1,5 +1,5 @@
 # What is this?
-This is my custom CLI menu thing for ReVanced CLI. It allows you to download the latest CLI JAR and Patches RVP files from GitHub (and GitLab) and choose patches from a list. It's more convenient than using the CLI directly, but yeah..
+This is my custom CLI menu thing for ReVanced CLI. It allows you to download the latest CLI JAR and Patches RVP files from GitHub (revanced patches repo is currently down, use a local file if you have one) and choose patches from a list. It's more convenient than using the CLI directly, but yeah..
 
 # How to use?
 For Windows, you need Git Bash (https://git-scm.com/downloads or https://gitforwindows.org/) to run the shell script. For Linux, you can run the shell script in your terminal. Just make sure you have Java installed (https://adoptium.net/temurin/releases) as well as `jq` (https://jqlang.org/download/). You need `jq` whether you're using Windows or Linux.
