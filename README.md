@@ -4,6 +4,9 @@ This is my custom CLI menu thing for ReVanced CLI. It allows you to download the
 # How to use?
 For Windows, you need Git Bash (https://git-scm.com/downloads or https://gitforwindows.org/) to run the shell script. For Linux, you can run the shell script in your terminal. Just make sure you have Java installed (https://adoptium.net/temurin/releases) as well as `jq` (https://jqlang.org/download/). You need `jq` whether you're using Windows or Linux.
 
+Windows in Git Bash: Use `./menu-windows.sh`  
+Linux: Use `./menu.sh`
+
 # keystore file
 Use the same `.keystore` file for all your patched apps so you won't have to keep reinstalling when you change the patched APK filename. Put your `.keystore` file in a `output/` directory in the same folder as the shell script. This `output/` directory will be where the final patched APK will be placed to as well.
 
